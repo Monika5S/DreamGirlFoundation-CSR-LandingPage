@@ -1,0 +1,39 @@
+ body {
+     background: linear-gradient(rgb(230, 255, 255) 20%, rgb(255, 217, 217));
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 20px;
+     background: white;
+     align-items: center;
+ }
+
+ nav .navigation-links {
+     list-style: none;
+     display: flex;
+     column-gap: 15px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+
+ nav img {
+     width: 100px;
+ }
+
+ .active {
+     color: teal;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .btn-brand {
+     background-color: #00a79d;
+     font-size: 23px;
+     color: white;
+     border-radius: 45px;
+ }
