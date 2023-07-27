@@ -90,6 +90,12 @@
      border-radius: 45px;
  }
 
+ .quick-links a:hover,
+ .btn-brand:hover {
+     border: 3px solid slateblue;
+     color: slateblue;
+ }
+
  .heading img {
      width: 100px;
      opacity: 0.5;
@@ -136,10 +142,6 @@
      border-radius: 45px;
  }
 
- .quick-links a:hover {
-     border: 3px solid slateblue;
-     color: slateblue;
- }
 
  @media(max-width:650px) {
      h1 {
