@@ -29,13 +29,13 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="d-flex">
       <img
         src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/03/logo1.png"
         alt="Dream girl foundation logo"
       />
 
-      <div class="navigation-links">
+      <div class="navigation-links d-md-flex">
         <li><a href="https://dreamgirlfoundation.ngo/">Home</a></li>
         <li>
           <a href="https://dreamgirlfoundation.ngo/about-us/">Our Stories</a>
@@ -65,14 +65,33 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="contact-card">
-        <!-- background image with top section on main page different colored on click with shadow and inc shadow -->
+    <div class="container text-center">
+      <div
+        class="d-flex p-4 mt-5 mb-5 align-items-center shadow-sm rounded contact-card"
+      >
+        <div class="contact pe-3">
+          <p>info@dreamgirlfoundation.ngo</p>
+          <p>+91 9873133134</p>
+          <div class="social-icons">fontawesome needed here!</div>
+        </div>
+
+        <button class="btn btn-brand">DONATE</button>
       </div>
 
-      <div class="content">
-        <h1>CSR Contribution</h1>
-        <h2>CSR : Different ways of Supporting US</h2>
+      <div class="mt-5 p-3 d-md-flex justify-content-between heading">
+        <img
+          src="./media/Cartoon-Child-2.svg"
+          alt=""
+          class="align-self-start"
+        />
+        <h1 class="p-5">CSR Contribution</h1>
+        <img src="./media/ChildWithBook.svg" alt="" class="align-self-end" />
+      </div>
+
+      <div class="content m-5 p-md-5">
+        <h2 class="p-2 shadow rounded mb-4">
+          CSR : Different ways of Supporting US
+        </h2>
         <p>
           Indian law now requires companies to give 2% of their profits to
           charity. After all, a bone to the dog is not charity. Charity is the
@@ -85,178 +104,449 @@
         </p>
 
         <div class="projects">
-          <h3>Partnership for Non-Formal Education centers</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Partnership for Non-Formal Education centers</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                World's literacy rate at 86% (with some countries with 100%)
+                dwarfs India's literacy at a meager 74%. Poor literacy is one of
+                the biggest factors thwarting the growth of India. We believe
+                that an investment in knowledge pays the biggest interest. So,
+                Dream Girl Foundation sets up Non-formal education centers in
+                backward areas where children don't have access or don't attend
+                schools. Dream Girl Foundation provides free of cost state of
+                the art education to children who can't afford schools. Our
+                philosophy is Children must be taught how to think, not what to
+                think. Don't feel like you are too small to make.a change
+                anymore and enroll with our NFE Partnership program because in
+                learning one teaches and in teaching one learns. Cost of
+                operating one NFE center is 9 lakh Rupees. A corporate can
+                sponsor one or more NFE centers. It is up to the corporate to
+                sponsor NFEs in nearby areas or far away areas. Details of all
+                the children helped by the sponsored NFE center(s) will be
+                shared with the corporate.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/14884708_1135083789904401_7298728484460537418_o-1024x768.jpg"
+              alt=""
+              class="img-fluid p-1 shadow bg-secondary-subtle"
+            />
+          </div>
+        </div>
+
+        <div class="projects">
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Partnership for Health Projects</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                There is no feeling more appeasing than helping a terminally ill
+                child. Knowing that your donation saved a child's life and then
+                that child grew up to be a doctor who saves others' life is
+                truly joyous and tranquilizing. You can get the same feeling as
+                thousands of our donors', by enrolling to our partnership for
+                health projects. Dream Girl Foundation firmly believes that the
+                secret of the care of the patient is in caring for the patient.
+                Dream Girl Foundation has so far helped hundreds of children
+                with cancer, tumor and other lethal medical conditions. We don't
+                only provide financial support, but also give moral support to
+                the family of patient. We believe that we only have what we
+                give. Corporates can enroll to this partnership in one (or more)
+                of the following 3 ways:
+
+                <li>
+                  Establishing fund: A corporate can establish fund and as many
+                  people as the fund allows will be treated. Details and genuine
+                  discharge summary of all the patients will be given to
+                  corporate on annual basis.
+                </li>
+                <li>
+                  Area-wise treatment: Corporate can choose to fund just the
+                  patients of a particular region.
+                </li>
+                <li>
+                  Disease wise treatment: Corporate can choose to fund patients
+                  of just a set of diseases. Corporate can choose the disease
+                  whose patients' treatment will be funded.
+                </li>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/c-1024x768.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/e-1024x768.jpg"
+              alt=""
+              class="img-fluid p-1 shadow bg-secondary-subtle"
+            />
+          </div>
+        </div>
+
+        <div class="projects">
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Donation-In-Kind Drive</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                A lot of times in life people think that only way to help
+                destitute is funding money. But one thing the people forget is
+                that a thing useless to one person can be a gift to another. You
+                will be amazed to know how dear your “useless” things can be to
+                poor children. So, corporate can inform its employees that
+                donation boxes will be in the ofice for some time and that they
+                can donate anything that they feel is useless. Employees can
+                donate stationary, toys, clothes, medicines etc. For poor
+                children nothing is useless, in fact they will see your donation
+                as a blessing.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/20994271_1433377393408371_1936559716844711424_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+          </div>
+        </div>
+
+        <div class="projects">
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Payroll Donation</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                A lot of times in life people think that only way to help
+                destitute is funding money. But one thing the people forget is
+                that a thing useless to one person can be a gift to another. You
+                will be amazed to know how dear your “useless” things can be to
+                poor children. So, corporate can inform its employees that
+                donation boxes will be in the ofice for some time and that they
+                can donate anything that they feel is useless. Employees can
+                donate stationary, toys, clothes, medicines etc. For poor
+                children nothing is useless, in fact they will see your donation
+                as a blessing.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17265124_1267569213322524_4647623626917314458_n-600x600.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17155169_1267569746655804_8607090826748561732_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+          </div>
           <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
+            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17155373_1267569566655822_5526953510072593998_n-600x600.jpg"
             alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
+            class="img-fluid p-1 bg-secondary-subtle"
           />
         </div>
 
         <div class="projects">
-          <h3>Partnership for Health Projects:</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Payroll Donation</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                This type of donation is very interesting. In this type
+                employees are encouraged to donate. And the corporate doubles
+                the total amount collected from donation of all employees. This
+                acts as an incentive for employees to donate as much as possible
+                because for every penny the employee donates, the needy children
+                get 2 pennies
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17155295_1267569193322526_8593905478902876945_n-600x800.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17202888_1267569186655860_3536671988125769092_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+          </div>
           <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
+            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/17155866_1267569496655829_8700223898628324457_n-600x800.jpg"
             alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
+            class="img-fluid p-1 bg-secondary-subtle"
           />
         </div>
 
         <div class="projects">
-          <h3>Donation-In-Kind Drive:</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Employee Engagement Program</h3>
+            </div>
+
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                In this program employees of the corporate can volunteer to work
+                with us. They can teach in NFE centers on weekends. Employees
+                with technical skills can help us technically. Graphic designer
+                can help us make an appealing poster that attracts donation. Web
+                Developer can help us make a good web site that is easy to use
+                and helpful for the person who is using it. We believe that no
+                one can do everything, but everyone can do something. So,
+                everyone has a way to help us and in turn help impoverished
+                children
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/12227815_909973222415460_3216172529880875288_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/12249597_909973059082143_2418981668298005098_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+          </div>
           <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
+            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/10994434_909973225748793_7246112960770352415_n.jpg"
             alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
+            class="img-fluid p-1 bg-secondary-subtle"
           />
         </div>
 
         <div class="projects">
-          <h3>Payroll Donation</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-        </div>
+          <div class="row">
+            <div class="col-md-4 p-4 align-self-center project-name">
+              <h3>Benefits of being socially responsible</h3>
+            </div>
 
-        <div class="projects">
-          <h3>Matching Donation</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-        </div>
+            <div class="col-md-8 p-5 align-self-center project-description">
+              <p>
+                <li>
+                  <b>Good Samaritan:</b> Apart from doing a noble deed of
+                  helping children, your corporate will also act as a Good
+                  Samaritan by donating 2% of its profit and not breaking the
+                  law.
+                </li>
+                <li>
+                  <b>Social Media Marketing:</b> We will make sure to promulgate
+                  your good name through our Facebook and Twitter page. It is
+                  our job to make mass aware that somewhere there is a corporate
+                  that apart from making profit, is also going to great extent
+                  to help poor children.
+                </li>
+                <li>
+                  <b>Tax Exemption:</b> According to Section-80G of Income-Tax
+                  Act, the amount donated towards charity attracts benefits in
+                  form of deduction in taxes. This is a value-added benefit that
+                  makes the case for donating even stronger.
+                </li>
+              </p>
+            </div>
+          </div>
 
-        <div class="projects">
-          <h3>Employee Engagement Program</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-        </div>
+          <div
+            class="image-gallery m-md-5 mt-3 d-md-flex justify-content-around"
+          >
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/12227815_909973222415460_3216172529880875288_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
 
-        <div class="projects">
-          <h3>Benefits of being socially responsible:</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-            odit eligendi aliquam nesciunt quos corporis sit consequuntur
-            accusantium, tenetur neque nam autem nostrum ab veniam ut nemo cum,
-            iusto atque?
-          </p>
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-          <img
-            src="https://dreamgirlfoundation.ngo/wp-content/uploads/2015/03/IMG_20160116_125947.jpg"
-            width="100px"
-            height="100px"
-            alt=""
-          />
-        </div>
-
-        <form class="company-connect"></form>
-
-        <form action="" class="feedback"></form>
-
-        <div class="newsletter">
-          <h3>Subscribe for Newsletter</h3>
-          <p>
-            Stay Informed about Currently Running Campaigns, Events,
-            Opportunities with Dream Girl Foundation
-          </p>
-
-          <form action="" class="subscribe">
-            <input type="email" placeholder="Type your email here" />
-            <input type="submit" title="Subscribe Now" />
-          </form>
+            <img
+              src="https://dreamgirlfoundation.ngo/wp-content/uploads/2017/08/10994434_909973225748793_7246112960770352415_n.jpg"
+              alt=""
+              class="img-fluid p-1 bg-secondary-subtle"
+            />
+          </div>
         </div>
       </div>
 
-      <footer></footer>
+      <form class="mt-5 p-4 rounded shadow-sm company-connect">
+        <p>
+          *This form is not for other NGOs. We did not ABLE TO SUPPORT ANY OTHER
+          NGO DUE TO OUR OWN FUNDING PROBLEMS AND LIMITED RESOURCES. So please
+          don't fill the below form if you are an NGO*
+        </p>
+        <label>Your Name</label><br />
+        <input type="Text" /><br />
+
+        <label>Contact No. of Auth. Person</label><br />
+        <input type="number" /><br />
+
+        <label>Email Address</label><br />
+        <input type="email" required /><br />
+
+        <label>Your Company Name</label><br />
+        <input type="text" /><br />
+
+        <label>Your Message</label><br />
+        <textarea></textarea><br />
+
+        <button class="btn btn-brand">Submit</button>
+      </form>
+
+      <form action="" class="mt-5 p-4 text-center rounded shadow-sm">
+        <h3>LEAVE A COMMENT!</h3>
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="email" />
+        <textarea placeholder="comment"></textarea><br />
+        <button class="btn btn-brand">Submit</button>
+      </form>
+
+      <div class="mt-5 p-4 bg-info-subtle newsletter">
+        <h3>Subscribe for Newsletter</h3>
+        <p>
+          Stay Informed about Currently Running Campaigns, Events, Opportunities
+          with Dream Girl Foundation
+        </p>
+
+        <form action="" class="bg-transparent text-center">
+          <input type="email" placeholder="Type your email here" /><br />
+          <button class="btn btn-dark">Subscribe Now</button>
+        </form>
+      </div>
+
+      <footer class="mt-5">
+        <h2 class="p-2">ABOUT US</h2>
+        <p>
+          Established in the year 2003, Dream Girl Foundation is one of the
+          eminent non-profit organisations engaged in providing a better future
+          to the underprivileged girls. We make efforts to reduce the miseries
+          faced by the children in India.
+        </p>
+
+        <div class="p-4 quick-links rounded-3">
+          <h3>Quick Links</h3>
+          <div class="row mt-4">
+            <div class="col">
+              <p>
+                <a
+                  href="https://dreamgirlfoundation.ngo/corporate-social-responsibility-csr/"
+                  >CSR Contribution</a
+                >
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/donation-in-kind/"
+                  >Donation-in-Kind</a
+                >
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/volunteer-with-us/"
+                  >Volunteer With Us</a
+                >
+              </p>
+            </div>
+
+            <div class="col">
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/intern-with-us/"
+                  >Intern With us</a
+                >
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/terms-conditions/"
+                  >Terms&Conditions</a
+                >
+              </p>
+            </div>
+
+            <div
+              class="mt-3 d-sm-flex justify-content-around d-md-block col-lg"
+            >
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/our-founder-members/">
+                  Our Partners
+                </a>
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/documents/">
+                  Documents & Accereditation
+                </a>
+              </p>
+
+              <p>
+                <a href="https://dreamgirlfoundation.ngo/refund-policy/">
+                  Refund Policy
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p>
+          Disclaimer – All donations made to the Dream Girl Foundation will be
+          allocated and dispersed as per the need of ongoing and future
+          projects. Said projects are aimed towards the betterment of
+          underprivileged children in India. All donations are exempted under
+          section 80G of Income Tax Act, 1961.
+        </p>
+
+        <p>
+          NGO Registration Number : Trust/Delhi/4/356 | FCRA Registration Number
+          : 231661739
+        </p>
+        <p>Copyright 2023. All rights reserved.</p>
+      </footer>
     </div>
   </body>
 </html>

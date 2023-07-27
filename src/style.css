@@ -1,9 +1,9 @@
  body {
-     background: linear-gradient(rgb(230, 255, 255) 20%, rgb(255, 217, 217));
+     background: linear-gradient(#96b0ef, #ddc0be 74%);
+     color: #303030;
  }
 
  nav {
-     display: flex;
      justify-content: space-between;
      padding: 10px 20px;
      background: white;
@@ -12,7 +12,6 @@
 
  nav .navigation-links {
      list-style: none;
-     display: flex;
      column-gap: 15px;
      font-size: 14px;
      font-weight: 500;
@@ -31,9 +30,119 @@
      color: black;
  }
 
+ h1 {
+     font-size: 44px;
+ }
+
+ h2 {
+     font-size: 18px;
+     font-weight: 500;
+     background-color: whitesmoke;
+ }
+
+ p {
+     font-size: 13px;
+     font-weight: 500;
+     line-height: 1.5;
+ }
+
+ hr {
+     border: 2px solid #303030;
+     border-radius: 45px;
+     opacity: 0.8;
+ }
+
+ form {
+     background-color: #ECE9FF;
+     text-align: left;
+     font-weight: 500;
+ }
+
+ form input,
+ textarea {
+     margin: 5px 0 15px 0;
+     padding: 5px;
+     font-size: 16px;
+     width: 70%;
+     border: none;
+ }
+
+ .contact-card {
+     width: fit-content;
+     margin: 0 auto;
+     background-color: #ECE9FF;
+     border: 3px solid #BCB8B8;
+     font-weight: 500;
+     column-gap: 10px;
+ }
+
+ .contact {
+     border-right: 2px solid #BCB8B8;
+ }
+
  .btn-brand {
-     background-color: #00a79d;
-     font-size: 23px;
+     background-color: #60B9C4;
+     font-size: 14px;
+     font-weight: 500;
+     padding: 10px 20px;
+     margin: 0 auto;
      color: white;
      border-radius: 45px;
+ }
+
+ .heading img {
+     width: 100px;
+     opacity: 0.5;
+     object-fit: contain;
+ }
+
+ .projects {
+     margin-top: 80px;
+ }
+
+ .projects p,
+ li {
+     font-size: 14px;
+     text-align: left;
+ }
+
+ .projects .row {
+     background: #ECE9FF;
+     border-radius: 10px;
+ }
+
+ .projects .project-description {
+     background: #60B9C4;
+     border-radius: 0 10px 10px 0;
+ }
+
+ .projects img {
+     width: 350px;
+     height: 350px;
+     margin: 10px;
+     object-fit: contain;
+ }
+
+ .quick-links {
+     background: #ECE9FF;
+ }
+
+ .quick-links a {
+     font-weight: bold;
+     padding: 4px;
+     margin: 5px auto;
+     line-height: 1.8;
+     border: 2px solid #303030;
+     border-radius: 45px;
+ }
+
+ .quick-links a:hover {
+     border: 3px solid slateblue;
+     color: slateblue;
+ }
+
+ @media(max-width:650px) {
+     h1 {
+         font-size: 34px;
+     }
  }
