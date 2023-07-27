@@ -1,6 +1,7 @@
  body {
      background: linear-gradient(#96b0ef, #ddc0be 74%);
      color: #303030;
+     font-family: 'Poppins', sans-serif;
  }
 
  nav {
@@ -22,12 +23,25 @@
  }
 
  .active {
-     color: teal;
+     color: #60B9C4;
  }
 
  a {
      text-decoration: none;
      color: black;
+ }
+
+ nav a:hover {
+     color: #60B9C4;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Open Sans', sans-serif;
  }
 
  h1 {
@@ -67,12 +81,15 @@
      border: none;
  }
 
+ .social-links img {
+     width: 45px;
+ }
+
  .contact-card {
      width: fit-content;
      margin: 0 auto;
      background-color: #ECE9FF;
      border: 3px solid #BCB8B8;
-     font-weight: 500;
      column-gap: 10px;
  }
 
